@@ -1,0 +1,101 @@
+body, html{
+    margin:0;
+    padding:0;
+    background:#FFF;
+    font:normal 12px verdana;
+    /*font-stretch: extra-expanded;*/
+    font-family: 'DM Sans', sans-serif;
+    width : 100%;
+}
+
+.margin-all{
+    margin: 10px 60px 10px 50px;
+}
+/*Header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2D2D39;
+    height : 100px;
+}
+.logo{
+    width: 250px;
+    height: auto;
+    margin:20px 0px 20px 30px;
+}
+.line-break{
+    white-space: pre-line;
+}
+
+.address{
+    color:#FFFFFF;
+    margin: 20px 60px 20px ;
+    text-align: right;
+}
+h1{
+    text-align: center;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    padding: 0;
+    font-size: 12px;
+    /*margin-left: -10px;*/
+    margin-right: 30px;
+    margin-top: 0;
+}
+.paragraph:nth-child(1) {
+    flex: 0.5; /* Thay đổi giá trị flex tùy theo tỷ lệ muốn đạt được */
+    font-size:12px;
+}
+.paragraph:nth-child(2) {
+    flex: 0.4; /* Thay đổi giá trị flex tùy theo tỷ lệ muốn đạt được */
+    font-size: 7px;
+}
+.font-size{
+    font-size: 18px;
+}
+table{
+    width: 100%; /* Bảng chiếm toàn bộ chiều rộng của phần tử cha */
+    border-collapse: collapse; /* Loại bỏ khoảng cách giữa các ô */
+    border-style: double none double none ;
+    padding:10px;
+}
+table tr:nth-child(1) {
+    border-style : double none double none;
+}
+th, td {
+    /*padding-left: -50px;*/
+    border-right: none;
+    border-left: none;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+th {
+    padding: 15px;
+
+}
+td{
+    padding: 1px;
+}
+
+.right-side{
+    text-align: right;
+}
+.left-side{
+    text-align: left ;
+}
+.logo-heart{
+    width: 20px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+.blue-space{
+    height: 20px; /* Độ cao của khoảng trống */
+    background-color: aqua; /* Màu nền xanh */
+}
